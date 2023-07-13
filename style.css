@@ -48,6 +48,7 @@ body {
   border-radius: 5px;
   border: 0px;
   background-color: #23a6f0;
+  font-family: inherit;
 }
 
 .header {
