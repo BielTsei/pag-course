@@ -187,14 +187,20 @@ nav {
 }
 
 .courses {
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: 200px;
-  margin-bottom: 200px;
+  /* margin-top: auto;
+  margin-left: auto;*/
+  margin-right: auto;
+  margin-bottom: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.courses img {
+  width: 440px;
+  height: 390px;
+  padding-right: 20px;
 }
 
 #description-cousers {
@@ -203,7 +209,7 @@ nav {
 }
 
 #description-cousers h4 {
-  font-size: 4rem;
+  font-size: 3.6rem;
   margin-bottom: 35px;
 }
 
@@ -214,6 +220,9 @@ nav {
 
 #description-cousers p {
   padding-bottom: 35px;
+  line-height: 22px;
+  text-align: right;
+  font-size: 1.5rem;
 }
 
 #line-2 {
@@ -221,6 +230,29 @@ nav {
   background-color: #e74040;
   width: 94px;
   height: 7px;
+}
+
+#note {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+.buttons-heart-basket-eye {
+  display: flex;
+  flex-direction: row;
+}
+
+.star-note {
+  width: 50px;
+  height: 26px;
+  background-color: #252b42;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 #card {
@@ -231,6 +263,10 @@ nav {
   margin-left: 200px;
   margin-top: 50px;
   box-sizing: border-box;
+}
+
+#title-card {
+  margin-top: 35px;
 }
 
 #card h4 {
@@ -262,9 +298,9 @@ nav {
   color: #40bb15;
 }
 
-#card p {
+/*#card p {
   font-size: 1.4rem;
-}
+}*/
 
 #card button {
   font-family: "Montserrat";
@@ -293,9 +329,4 @@ nav {
 
 .clients img {
   width: 9.375rem;
-}
-
-.courses img {
-  width: 508px;
-  height: 485px;
 }
