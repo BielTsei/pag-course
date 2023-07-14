@@ -151,6 +151,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 160px;
 }
 
 #information-squares img {
@@ -185,10 +186,116 @@ nav {
   margin-top: 10px;
 }
 
+.courses {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#description-cousers {
+  display: flex;
+  flex-direction: column;
+}
+
+#description-cousers h4 {
+  font-size: 4rem;
+  margin-bottom: 35px;
+}
+
+#description-cousers a {
+  color: #23a6f0;
+  font-weight: 700;
+}
+
+#description-cousers p {
+  padding-bottom: 35px;
+}
+
+#line-2 {
+  margin-bottom: 35px;
+  background-color: #e74040;
+  width: 94px;
+  height: 7px;
+}
+
+#card {
+  height: 678px;
+  width: 328px;
+  background-color: white;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+#card h4 {
+  font-size: 1.4rem;
+  color: #23a6f0;
+  padding-left: 25px;
+}
+
+#card h5 {
+  color: #252b42;
+  font-size: 1.6rem;
+}
+
+.price p {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#paragraph-cousers {
+  color: #737373;
+}
+.price-1 {
+  color: #bdbdbd;
+  font-weight: 700;
+}
+
+.price-2 {
+  font-weight: 700;
+  color: #40bb15;
+}
+
+#card p {
+  font-size: 1.4rem;
+}
+
+#card button {
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 141px;
+  height: 44px;
+  color: #23a6f0;
+  background-color: #ffffff00;
+  border-radius: 37px;
+  border: 2px solid #23a6f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 35px;
+  margin-left: 25px;
+}
+
+.time-progress-courses {
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-around;
+  gap: auto;
+}
+
 .clients img {
   width: 9.375rem;
 }
 
 .courses img {
-  width: 31.75rem;
+  width: 508px;
+  height: 485px;
 }
