@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background-color: #252b42;
   font-family: "Montserrat", sans-serif;
@@ -11,29 +15,29 @@ body {
   background-image: url(/svg/Vector.svg);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 100%;
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-around;
-  padding-top: 1.563rem;
-  margin-bottom: 1.563rem;
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .nav-bar ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1.313rem;
+  gap: 1.3rem;
 }
 
 #login {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-left: 4rem;
-  gap: 2.813rem;
+  /*margin-left: 4rem;*/
+  gap: 2.8rem;
 }
 
 .nav-bar a {
@@ -43,8 +47,8 @@ body {
 
 .nav-bar button {
   font-size: 1.4rem;
-  width: 13.375rem;
-  height: 3.25rem;
+  width: 138px;
+  height: 52px;
   border-radius: 5px;
   border: 0px;
   background-color: #23a6f0;
@@ -53,25 +57,32 @@ body {
 
 .header {
   width: 1046px;
-  margin-left: 197px;
-  margin-right: 197px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .header h2 {
-  font-size: 3.625rem;
+  font-size: 3.6rem;
+  padding-bottom: 40px;
+  text-align: center;
+  line-height: 5rem;
 }
 
 .header h5 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  padding-top: 290px;
+  padding-bottom: 40px;
+  color: #23a6f0;
+  font-weight: 400;
 }
 
 .header p {
-  margin-left: 258px;
-  margin-right: 258px;
-  font-size: 1.25rem;
+  font-size: 1.7rem;
+  text-align: center;
+  line-height: 2.5rem;
 }
 
 .arrow {
@@ -86,6 +97,87 @@ body {
 .logo {
   display: flex;
   align-items: center;
+}
+
+.logo img {
+  margin-right: 83px;
+}
+
+#buttons {
+  padding-bottom: 120px;
+  margin-top: 40px;
+}
+
+.button-quote {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 195px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #23a6f0;
+  color: white;
+  margin-right: 5px;
+}
+
+.button-learn {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 162px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid;
+  color: #23a6f0;
+  background-color: #ffffff00;
+}
+
+#squares {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#information-squares {
+  width: 328px;
+  height: 192px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#information-squares img {
+  width: 32px;
+  height: 32px;
+}
+
+#information-squares p {
+  color: #252b42;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+#square-icon {
+  width: 70px;
+  height: 76px;
+  background-color: #23a6f0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+#line {
+  width: 50px;
+  height: 2px;
+  background-color: #e74040;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .clients img {
